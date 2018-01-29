@@ -65,7 +65,7 @@ return [
             'host' => env('DB_HOST', 'localhost'),
             'port' => env('DB_PORT', '3306'),
             'database' => 'dbsnow_test',
-            'username' => env('MYSQL_USERNAME',env('DB_USERNAME', 'root')),
+            'username' => env('MYSQL_USER',env('DB_USERNAME', 'root')),
             'password' => env('MYSQL_PASSWORD',env('DB_PASSWORD', '')),
             'charset' => 'utf8',
             'collation' => 'utf8_unicode_ci',
